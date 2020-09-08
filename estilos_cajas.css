@@ -1,0 +1,184 @@
+#navbarMenu{
+	font-size: 20px;
+}
+
+
+/*Comienza el body*/
+
+section #primera{
+	background-color: #adf576;
+
+}
+
+#imagen{
+	height: 550px;
+}
+
+#titulo{
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 60px;
+	color: #0d1e28;
+}
+
+.colorBrand2{
+	color: #c2c215;
+}
+
+#tituloText{
+	font-size: 20px;
+	color: #959696;
+	font-weight: normal;
+	line-height: 1px;
+}
+
+.colorBrand{
+	background-color: #0d1e28;
+	color: white;
+}
+
+.colorBrand:hover{
+	color:#c2c215 ;
+}
+
+#botonConsultanos{
+	margin-top: 40px;
+	margin-left: 120px;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 17px 10px;
+	font-weight: bold;
+	border-style: none;
+}
+
+
+.card{
+	padding:20px;
+	border:none; 
+}
+
+.card:hover{
+	background-color: #e8effa
+}
+
+/* Un modo para alinear horizontalmente el row entero, ver como adaptarlo responsive
+
+#servicios{
+	justify-content:space-around;
+}
+*/
+
+/* Comienzan los servicios detalladamente*/
+
+
+#detalle > div img{
+	height: 250px;
+	width: auto;
+}
+
+
+#detalle > div{
+	padding:80px;
+}
+
+#detalle > div h2, div p{
+	margin-top: 30px;
+}
+
+#detalle > div h2{
+	font-weight: bold;
+	color: #0d1e28;
+}
+
+.celeste {
+	background-color: #e8effa;
+}
+
+
+/* Final servicios detalladamente*/
+
+/* Comienza Servicios Responsive*/
+
+
+/* Final Servicios Responsive*/
+
+/*Comienza el form de Contacto*/
+
+#contacto  h3 {
+	margin-top: 50px;
+	font-weight: bold;
+	color: #333333;
+	text-align: center;
+	font-size: 40px;
+}
+
+#contacto p{
+	font-weight: 600;
+	text-align: center;
+	color:#474747;
+}
+#enviar{
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 10px 10px;
+	font-weight: bold;
+	border-style: none;
+	margin-bottom: 20px;
+}
+
+
+/*Comienzo Footer*/
+
+footer{
+	height: 250px;
+}
+
+#logoFooter > img{
+	height: 120px;
+	margin-top: 90px;
+}
+
+.rrss{
+	height: 50px;
+	margin-top: 20px;
+}
+
+.rrss:hover{
+	transform: scale(1.1); 
+
+}
+
+
+/* 
+<div class="row">
+			<div class="col-7 col-md-5" id="logo">
+				<!-- Comienza Logo-->
+				<nav class="nav navbar-light">
+					<a class="navbar-brand" href="#">
+						<img src="imagenes/adalitica.png" height="50px"  alt="logo Adalitica">
+					</a></nav>
+					<!-- Finaliza Logo -->
+			</div>
+			<div class="col-4 offset-1 col-md-5 offset-md-2 align-self-end" id="menu">
+				<!-- Menu de Navegación -->
+            	<nav class="navbar navbar-expand-md navbar-light ">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu1" aria-controls="menu1" aria-expanded="false" aria-label="toggle navigation">
+						<span class="navbar-toggler-icon" width="100%"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="menu1">
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#detalle">Servicios</a>
+							</li>
+							<li class="nav-item" href="#">
+								<a class="nav-link" href="#contacto">Contacto
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<!-- Fin de Menu de navegación -->
+*/
